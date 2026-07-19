@@ -6,7 +6,7 @@
 
 ---
 
-## 🔴 Risk Heatmap — Current Posture
+## Risk Heatmap — Current Posture
 
 | Risk Domain | Inherent Risk | Control Effectiveness | Residual Risk |
 |:---|:---:|:---:|:---:|
@@ -18,7 +18,7 @@
 
 ---
 
-## 📊 Key Metrics — 24-Hour Period
+## Key Metrics — 24-Hour Period
 
 | Metric | Value |
 |:---|:---:|
@@ -32,7 +32,7 @@
 
 ---
 
-## 🚨 Alert Triage Summary
+## Alert Triage Summary
 
 | Attack Stage | MITRE ATT&CK | Rule SID | Alert Count | Validation Status |
 |:---|:---|:---:|:---:|:---|
@@ -40,11 +40,12 @@
 | **Port Scanning** | T1046 | 9000002 | 156 | ✅ Confirmed True Positive (SYN Flood) |
 | **Credential Access** | T1110.001 | 9000003 | 24 | ✅ Confirmed True Positive (SSH Brute Force) |
 | **DoS / Flooding** | T1498 | 9000005 | 30 | ✅ Confirmed True Positive (High SYN Rate) |
-| **App-Layer Recon** | T1059.007 | 9000004 | 0 | ⚠️ **Unverified** — Environment gap (No web service) |
-
+| **App-Layer Recon** | T1595.002 | 9000004 | 0 | ⚠️ **Unverified** — Environment gap (No web service) |
+| **ET INFO (DHCP Hostname)** | T1046 | 2022973 | 35 | ℹ️ Informational — Background noise (DHCP fingerprinting) |
+| **TOTAL** | | | **249** | |
 ---
 
-## ✅ Control Status Dashboard
+## Control Status Dashboard
 
 | Detective Control | Operational | Validated | Automatically Responding |
 |:---|:---:|:---:|:---:|
@@ -57,7 +58,7 @@
 
 ---
 
-## 🚀 Immediate Executive Action Items
+## Immediate Executive Action Items
 
 | Priority | Action | Owner | Est. Cost |
 |:---:|:---|:---|:---:|
