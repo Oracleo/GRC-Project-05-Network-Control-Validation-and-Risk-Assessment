@@ -36,13 +36,13 @@
 
 | Attack Stage | MITRE ATT&CK | Rule SID | Alert Count | Validation Status |
 |:---|:---|:---:|:---:|:---|
-| **Reconnaissance** | T1595.001 | 9000001 | 4 | ✅ Confirmed True Positive (ICMP Echo) |
-| **Port Scanning** | T1046 | 9000002 | 156 | ✅ Confirmed True Positive (SYN Flood) |
+| **Reconnaissance** | T1595.001 | 9000001 | 6 | ✅ Confirmed True Positive (ICMP Echo) |
+| **Port Scanning** | T1046 | 9000002 | 150 | ✅ Confirmed True Positive (SYN Flood) |
 | **Credential Access** | T1110.001 | 9000003 | 24 | ✅ Confirmed True Positive (SSH Brute Force) |
-| **DoS / Flooding** | T1498 | 9000005 | 30 | ✅ Confirmed True Positive (High SYN Rate) |
+| **DoS / Flooding** | T1498 | 9000005 | 31 | ✅ Confirmed True Positive (High SYN Rate) |
 | **App-Layer Recon** | T1595.002 | 9000004 | 0 | ⚠️ **Unverified** — Environment gap (No web service) |
-| **ET INFO (DHCP Hostname)** | T1046 | 2022973 | 35 | ℹ️ Informational — Background noise (DHCP fingerprinting) |
-| **TOTAL** | | | **249** | |
+| **ET INFO (DHCP Hostname)** | T1046 | 2022973 | 39 | ℹ️ Informational — Background noise (DHCP fingerprinting) |
+| **TOTAL** | | | **250** | |
 ---
 
 ## Control Status Dashboard
