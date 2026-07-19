@@ -17,5 +17,5 @@ In a professional GRC environment, a ping sweep against a lab VM is different fr
 | **Network Scanning (T1046) leading to Successful RCE** | Unauthorized access to HR database and defacement of the portal. | Violates GDPR Article 32 if PII is exfiltrated. | **~$500,000+** direct financial loss and severe loss of employee trust. |
 | **Unblocked Adversary Reconnaissance** | Attackers have an unrestricted window of time to map the network and find weak points. | Violates NIST DE.CM-1 (Continuous monitoring). | Harder to detect lateral movement, leading to an eventual data breach. |
 
-## 6.3 Conclusion on Priority Scoring
-The lack of automated blocking on the IDS is escalated to a **Critical P1** because an unblocked scanner can immediately move from Reconnaissance to Exploitation in a matter of seconds. The priority matrix in `03-Risk-Register.md` is driven by the criticality of the HR data on this specific host.
+## 8.3 Conclusion on Priority Scoring
+The lack of automated blocking on the IDS is escalated to a **Critical P1** because an unblocked scanner can immediately move from Reconnaissance to Exploitation in a matter of seconds. The priority matrix in `05-Risk-Register.md` is driven by the criticality of the HR data on this specific host.
