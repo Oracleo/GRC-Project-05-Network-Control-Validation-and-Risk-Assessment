@@ -1,4 +1,4 @@
-# 7. MITRE ATT&CK Threat Actor Mapping
+# 9. MITRE ATT&CK Threat Actor Mapping
 
 Mapping the multi-stage attack to MITRE ATT&CK allows us to visualize the adversary's full kill chain and apply precise mitigations.
 
