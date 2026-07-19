@@ -1,8 +1,8 @@
-# 6. Asset Business Criticality & Context Analysis
+# 8. Asset Business Criticality & Context Analysis
 
 In a professional GRC environment, a ping sweep against a lab VM is different from one against a production server. For this risk engagement, we contextualize the **Monitored Kali Host (`192.168.56.101`)** as follows:
 
-## 6.1 Asset Profile
+## 8.1 Asset Profile
 | Asset Attribute | Assigned Context |
 |:---|:---|
 | **Hostname** | `app-prod-01.internal.corp` |
@@ -11,7 +11,7 @@ In a professional GRC environment, a ping sweep against a lab VM is different fr
 | **Regulatory Footprint** | Subject to **GDPR** (EU employee data). |
 | **Operational Criticality** | Mission-critical. If this server is compromised via an exploit discovered during an Nmap scan, employees lose access to the payroll portal. |
 
-## 6.2 Impact Analysis Matrix
+## 8.2 Impact Analysis Matrix
 | Threat Scenario | Operational Impact | Compliance Impact | Financial/Reputational Impact |
 |:---|:---|:---|:---|
 | **Network Scanning (T1046) leading to Successful RCE** | Unauthorized access to HR database and defacement of the portal. | Violates GDPR Article 32 if PII is exfiltrated. | **~$500,000+** direct financial loss and severe loss of employee trust. |
