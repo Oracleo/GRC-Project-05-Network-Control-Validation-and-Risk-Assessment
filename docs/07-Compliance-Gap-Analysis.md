@@ -12,15 +12,15 @@ This document maps the identified security control implementation to specific re
 ## NIST Cybersecurity Framework (CSF) Mappings
 | NIST Function | NIST Category | Gap Evidence |
 |:---|:---|:---|
-| **DETECT (DE)** | DE.CM-1 (Network is monitored) | Suricata IDS is actively monitoring `eth0` and generating 249 alerts. |
+| **DETECT (DE)** | DE.CM-1 (Network is monitored) | Suricata IDS is actively monitoring `eth0` and generating **250 alerts**. |
 | **DETECT (DE)** | DE.AE-2 (Detected events are analyzed) | Alerts were manually triaged and correlated with Wireshark packet evidence to confirm true positives. |
 | **RESPOND (RS)** | RS.CO-2 (Response is coordinated) | The alert system is not currently integrated with automated firewall blocking or ticketing. |
 | **IDENTIFY (ID)** | ID.RA-1 (Asset vulnerabilities) | The control testing exercise identified the absence of a web server to test the HTTP detection rule. |
 
 ## PCI DSS v4.0 Mappings (Relevance for Financial Data)
-*   **Requirement 10.2:** Audit trails for system components must be enabled and active. (Passed: Wireshark PCAP and Suricata logs are retained).
-*   **Requirement 11.5.1:** Intrusion detection and prevention mechanisms must be monitored. (Passed: Suricata is active; alerts are generated).
-*   **Requirement 8.5:** The use of group, shared, or generic IDs must be prevented. (Not addressed, but the SSH brute force detection highlights this as a relevant control).
+- **Requirement 10.2:** Audit trails for system components must be enabled and active. (Passed: Wireshark PCAP and Suricata logs are retained).
+- **Requirement 11.5.1:** Intrusion detection and prevention mechanisms must be monitored. (Passed: Suricata is active; alerts are generated).
+- **Requirement 8.2.2:** Authentication mechanisms are configured to prevent the use of group, shared, or generic IDs. (Not directly addressed, but the SSH brute force detection highlights why enforcing unique, non-generic IDs is a relevant control).
 
 ## GDPR (General Data Protection Regulation) Implications
 If the scanned server contained PII, an initial reconnaissance scan is the first stage of a data breach. Failure to deploy effective IDS/IPS controls would be viewed as a failure to comply with **Article 32 (Security of Processing)**.
