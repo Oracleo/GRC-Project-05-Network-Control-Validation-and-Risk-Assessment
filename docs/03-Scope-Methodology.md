@@ -1,13 +1,13 @@
-# 2. Assessment Scope & Investigation Methodology
+# 3. Assessment Scope & Investigation Methodology
 
 *  **Document Type:** Terms of Reference (ToR)
 *  **Assessment Period:** February 25, 2026
 *  **Assessment Owner:** Niladri Biswas
 
-## 2.1 Purpose
+## 3.1 Purpose
 To formally deploy, configure, and validate a network threat detection control (Suricata IDS). The objective is to verify that custom and community rules accurately detect a simulated multi-stage cyber attack, map the alerts to packet-level evidence (Wireshark), and honestly document any environmental limitations for audit purposes.
 
-## 2.2 In-Scope & Out-of-Scope Assets
+## 3.2 In-Scope & Out-of-Scope Assets
 | **Scope Element** | **Details** |
 |:---|:---|
 | **Detection Control** | Suricata 8.0.3 IDS running on a Kali Linux VM (`192.168.56.101`). |
@@ -16,7 +16,7 @@ To formally deploy, configure, and validate a network threat detection control (
 | **Ruleset** | Emerging Threats (48,701 rules) + 5 custom `local.rules`. |
 | **Out-of-Scope** | Exfiltration, C2 beaconing, and application-layer HTTP exploitation (due to lack of target service). |
 
-## 2.3 Technical Testing Methodology (6 Phases)
+## 3.3 Technical Testing Methodology (6 Phases)
 
 **Phase 1 — IDS Deployment & Configuration**
 Suricata 8.0.3 was installed on Kali. `HOME_NET` was correctly scoped to `192.168.56.0/24` to prevent false positives. The Emerging Threats ruleset was downloaded (64,554 total, 48,701 enabled).
@@ -44,6 +44,6 @@ All 249 alerts were reviewed. For an alert to be classified as a **True Positive
 **Phase 6 — GRC Documentation**
 The entire setup, attack timeline, validation results, and honest control limitations were documented and mapped to ISO 27001 Annex A, NIST CSF, and MITRE ATT&CK.
 
-## 2.4 Constraints & Limitations
+## 3.4 Constraints & Limitations
 *   **HTTP Rule Environment Gap (Honest Disclosure):** SID 9000004 (HTTP User-Agent detection) was **not triggered** during the test because the target host did not have a web server running on port 80. This is an environmental constraint, **not a control failure**. The control cannot be claimed as validated until a web server is deployed and tested.
 *   **Detection Only (No Prevention):** Suricata is operating in IDS (detection) mode. It does not block the scanning traffic. An IPS (Inline) deployment or SOAR integration is required for a preventative effect.
