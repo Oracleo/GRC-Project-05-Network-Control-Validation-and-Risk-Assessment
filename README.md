@@ -13,7 +13,7 @@ This project validates a detective control (Suricata IDS) by simulating a real-w
 
 ---
 
-## 📊 Project at a Glance (For Recruiters & Hiring Managers)
+## Project at a Glance (For Recruiters & Hiring Managers)
 
 | Area | Details |
 |:---|:---|
@@ -26,7 +26,7 @@ This project validates a detective control (Suricata IDS) by simulating a real-w
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 Navigate this repository to view the formal GRC artifacts:
 
