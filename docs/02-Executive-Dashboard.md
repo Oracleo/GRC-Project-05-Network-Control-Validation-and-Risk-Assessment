@@ -23,7 +23,7 @@
 | Metric | Value |
 |:---|:---:|
 | **Network Packets Captured** | 8,344 |
-| **Total IDS Alerts Generated** | 249 |
+| **Total IDS Alerts Generated** | 250 |
 | **Emerging Threats Rules Loaded** | 48,701 |
 | **Custom Rules Deployed** | 5 |
 | **Custom Rules Triggered & Validated** | 4 |
@@ -32,7 +32,7 @@
 
 ---
 
-## Alert Triage Summary
+## Alert Triage Summary (Sourced from `fast.log`)
 
 | Attack Stage | MITRE ATT&CK | Rule SID | Alert Count | Validation Status |
 |:---|:---|:---:|:---:|:---|
@@ -43,6 +43,7 @@
 | **App-Layer Recon** | T1595.002 | 9000004 | 0 | ⚠️ **Unverified** — Environment gap (No web service) |
 | **ET INFO (DHCP Hostname)** | T1046 | 2022973 | 39 | ℹ️ Informational — Background noise (DHCP fingerprinting) |
 | **TOTAL** | | | **250** | |
+
 ---
 
 ## Control Status Dashboard
