@@ -1,4 +1,4 @@
-# 8. Asset Business Criticality & Context Analysis
+# 8. Asset Business Criticality
 
 In a professional GRC environment, a ping sweep against a lab VM is different from one against a production server. For this risk engagement, we contextualize the **Monitored Kali Host (`192.168.56.101`)** as follows:
 
