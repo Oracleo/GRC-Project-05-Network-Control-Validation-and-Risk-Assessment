@@ -1,4 +1,4 @@
-# 4. Assumed Business Context & Threat Landscape
+# 4. Assumed Business Context
 
 To ensure a realistic GRC evaluation, this assessment assumes a specific organizational context. We are evaluating the network detection controls of **TechFin Innovations Inc.** (a simulated mid-sized financial technology firm) based on its actual business drivers, threat landscape, and risk appetite.
 
