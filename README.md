@@ -48,7 +48,7 @@ Navigate this repository to view the formal GRC artifacts:
 
 ## Screenshots Index
 
-| # | Filename | Description |
+| No. | Filename | Description |
 |---|---|---|
 | 01 | GRC5-01-suricata-version-verified.png | Suricata 8.0.3 installation verified |
 | 02 | GRC5-02-suricata-yaml-homenet-afpacket.png | HOME_NET and interface configuration |
