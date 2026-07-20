@@ -26,7 +26,7 @@ This project validates a detective control (Suricata IDS) by simulating a real-w
 
 ---
 
-## Repository Contents
+## Full Documentation Index (GRC Artifacts)
 
 Navigate this repository to view the formal GRC artifacts:
 
