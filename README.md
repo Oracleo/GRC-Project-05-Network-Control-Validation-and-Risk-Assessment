@@ -45,3 +45,24 @@ Navigate this repository to view the formal GRC artifacts:
 | **`docs/11-Lessons-Learned.md`** | A post-implementation retrospective capturing methodology improvements for future control tests. |
 | **`artifacts/`** | Raw forensic evidence, including the custom `local.rules`, `fast.log` (250 alerts), `eve.json`, and the full 8,344-packet `soc3_capture.pcapng`. |
 | **`screenshots/`** | 16 annotated screenshots documenting the IDS install, rule loading, and Wireshark packet filters. |
+
+## Screenshots Index
+
+| # | Filename | Description |
+|---|---|---|
+| 01 | GRC5-01-suricata-version-verified.png | Suricata 8.0.3 installation verified |
+| 02 | GRC5-02-suricata-yaml-homenet-afpacket.png | HOME_NET and interface configuration |
+| 03 | GRC5-03-suricata-rules-updated.png | Emerging Threats ruleset — 48,701 rules enabled |
+| 04 | GRC5-04-suricata-config-test-passed.png | Configuration validation — 0 rules failed |
+| 05 | GRC5-05-custom-rules-validated.png | 5 custom detection rules loaded and validated |
+| 06 | GRC5-06-suricata-running-live.png | Suricata engine running live on eth0 |
+| 07 | GRC5-07-wireshark-capturing-eth0.png | Wireshark independent capture started |
+| 08 | GRC5-08-attack-traffic-generated.png | Controlled attack traffic generated from source host |
+| 09 | GRC5-09-suricata-fast-log-alerts.png | fast.log — 250 total alerts summary |
+| 10 | GRC5-10-suricata-eve-json-alerts.png | eve.json — structured SIEM-ingestible alert data |
+| 11 | GRC5-11-wireshark-save-capture.png | Packet capture saved — grc5_capture.pcapng |
+| 12 | GRC5-12-wireshark-filter-icmp-ping.png | ICMP reconnaissance — 34 packets, TTL=128 confirmed |
+| 13 | GRC5-13-wireshark-filter-nmap-syn-scan.png | Nmap SYN scan — 3,130 packets, Win=1024 signature |
+| 14 | GRC5-14-wireshark-filter-ssh-bruteforce.png | SSH brute force — 123 packets, incrementing source ports |
+| 15 | GRC5-15-wireshark-protocol-hierarchy.png | Protocol hierarchy — TCP 75% anomaly indicator |
+| 16 | GRC5-16-wireshark-conversations-tcp.png | TCP conversations — 3,130 incomplete handshake pattern |
