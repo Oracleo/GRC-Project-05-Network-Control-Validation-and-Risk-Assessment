@@ -1,12 +1,12 @@
-# 2. Executive Dashboard — Network Detection Control Posture
+# 2. Executive Dashboard
 
-**Assessment Date:** February 25, 2026  
+**Assessment Date:** 5 March 2026
 **Dashboard Owner:** Niladri Biswas  
 **Asset Scope:** Internal Network Segment (`192.168.56.0/24`) — HR/Payroll Application Server
 
 ---
 
-## Risk Heatmap — Current Posture
+## Risk Heatmap
 
 | Risk Domain | Inherent Risk | Control Effectiveness | Residual Risk |
 |:---|:---:|:---:|:---:|
@@ -18,7 +18,7 @@
 
 ---
 
-## Key Metrics — 24-Hour Period
+## Key Metrics
 
 | Metric | Value |
 |:---|:---:|
