@@ -1,7 +1,7 @@
-# 3. Assessment Scope & Investigation Methodology
+# 3. Scope Methodology
 
 **Document Type:** Terms of Reference (ToR)
-**Assessment Period:** February 25, 2026
+**Assessment Period:** 5 March 2026
 **Assessment Owner:** Niladri Biswas
 
 ## 3.1 Purpose
