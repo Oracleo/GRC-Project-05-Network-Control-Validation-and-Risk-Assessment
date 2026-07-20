@@ -1,4 +1,4 @@
-# 9. MITRE ATT&CK Threat Actor Mapping
+# 9. MITRE ATT&CK Mapping
 
 Mapping the multi-stage attack to the MITRE ATT&CK framework allows us to visualize the adversary's full kill chain and apply precise, actionable mitigations. This mapping validates that our custom Suricata rules target the exact techniques utilized by modern automated adversaries.
 
@@ -23,7 +23,7 @@ Mapping the multi-stage attack to the MITRE ATT&CK framework allows us to visual
 
 ---
 
-## GRC Recommendation: Disrupting the Kill-Chain
+## GRC Recommendation (Disrupting the Kill-Chain)
 
 To disrupt this kill-chain and move from a purely *detective* posture to a *preventive* stance, the following controls are recommended:
 
